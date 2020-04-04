@@ -1,0 +1,52 @@
+drop table if exists 'position';
+drop table if exists employee;
+drop table if exists department;
+drop table if exists commission;
+drop table if exists 'history';
+
+
+create table position(
+    'code' varchar(10),
+    title varchar(30) not null,
+    income int not null,
+    --
+    constraint pk_position PRIMARY KEY('code')
+);
+
+create table employee(
+    number int unsigned,
+    name varchar(30) not null,
+    position varchar(10),
+    supervisor int unsigned,
+    department varchar(10),
+    --
+    constraint pk_employee PRIMARY KEY (number),
+    constraint fk_employee_positionn foreign key (position) REFERENCES position('code'),
+    constraint fk_employee_number foreign key (supervisor) references
+    constraint fk_employee_department foreign key (department) references  department(code)
+
+);
+
+create table department(
+    code varchar(10),
+    name varchar(30),
+    number int,
+    location varchar(30),
+    director varchar(10) null,
+    --
+    constraint pk_department primary key (code),
+    constraint fk_department_code foreign key (number) references employee(number)
+);
+
+create table commission(
+    emplyee varchar(10),
+    date date,
+    value varchar(10)
+);
+
+create table 'history'(
+    employee varchar(10),
+    position varchar(10),
+    start_date date
+
+);
