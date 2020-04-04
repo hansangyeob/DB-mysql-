@@ -13,6 +13,8 @@ create table position(
     constraint pk_position PRIMARY KEY('code')
 );
 
+-- 'unsigned' for non- negative integers
+
 create table employee(
     number int unsigned,
     name varchar(30) not null,
@@ -21,32 +23,133 @@ create table employee(
     department varchar(10),
     --
     constraint pk_employee PRIMARY KEY (number),
-    constraint fk_employee_positionn foreign key (position) REFERENCES position('code'),
-    constraint fk_employee_number foreign key (supervisor) references
+    --
+    constraint fk_employee_positionn foreign key (position) references position('code')
+        on delete cascade
+        on update cascade,
+    constraint fk_employee_number foreign key (supervisor) references employee(number)
+        on delete cascade
+        on update cascade,
     constraint fk_employee_department foreign key (department) references  department(code)
-
+        on delete cascade
+        on update cascade
 );
 
 create table department(
     code varchar(10),
-    name varchar(30),
+    name varchar(30) not null,
     number int,
-    location varchar(30),
-    director varchar(10) null,
+    location varchar(30) not null,
+    director int unsigned,
     --
     constraint pk_department primary key (code),
     constraint fk_department_code foreign key (number) references employee(number)
 );
 
 create table commission(
-    emplyee varchar(10),
-    date date,
-    value varchar(10)
+    emplyee int unsigned,
+    date date not null,
+    value int not null,
+    --
+    constraint pk_commision primary key (emplyee,date),
+    --
+    constraint fk_commission_number foreign key (emplyee) references employee(number)
 );
 
 create table 'history'(
-    employee varchar(10),
+    employee int unsigned,
     position varchar(10),
-    start_date date
-
+    start_date date,
+    --
+    constraint pk_history primary key (employee,position,start_date),
+    --
+    constraint fk_history_number foreign key (employee) references employee(number),
+    constraint fk_position_code foreign key (position) references position(code)
 );
+
+-- inserting values
+INSERT INTO position (`code`, title, income)
+  VALUES ('CS1', 'Salesman', 100);
+INSERT INTO position (`code`, title, income)
+  VALUES ('CS2', 'Manager', 400);
+INSERT INTO position (`code`, title, income)
+  VALUES ('CS3', 'Development director', 300);
+INSERT INTO position (`code`, title, income)
+  VALUES ('CS4', 'Digital strategy manager', 600);
+INSERT INTO position (`code`, title, income)
+  VALUES ('CS5', 'Director of communications', 700);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (1, 'George Constanza', 'CS2', 'DP1', 4);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (2, 'Anna Nguyen', 'CS5', 'DP1', NULL);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (3, 'Peter', 'CS3', 'DP2', 3);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (4, 'Liam', 'CS3', 'DP1', 2);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (5, 'Mason', 'CS1', 'DP3', 8);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (6, 'Jacob', 'CS2', 'DP3', NULL);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (7, 'William','CS4', 'DP2', 9);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (8, 'Ethan', 'CS5', 'DP1', NULL);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (9, 'Liam', 'CS4', 'DP2', 10);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (10, 'James', 'CS3', 'DP3', NULL);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (11, 'Mary', 'CS4', 'DP2', 9);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (12, 'John', 'CS1', 'DP1', NULL);
+INSERT INTO employee (number, name, position, department, supervisor)
+  VALUES (13, 'Hang', 'CS4', 'DP1', NULL);
+INSERT INTO department (code, name, location, director)
+  VALUES ('DP1', 'Sales Department', 'Hanoi', 2);
+INSERT INTO department (code, name, location, director)
+  VALUES ('DP2', 'Research Department', 'Hanoi', 3);
+INSERT INTO department (code, name, location, director)
+  VALUES ('DP3', 'International Department', 'HCMC', 5);
+INSERT INTO commission(employee, date, value)
+  VALUES (1,'2016-07-30', 50);
+INSERT INTO commission(employee, date, value)
+  VALUES (1,'2016-08-12', 150);
+INSERT INTO commission(employee, date, value)
+  VALUES (2,'2015-07-30', 550);
+INSERT INTO commission(employee, date, value)
+  VALUES (3,'2016-06-10', 550);
+INSERT INTO commission(employee, date, value)
+  VALUES (5,'2009-03-01', 300);
+INSERT INTO commission(employee, date, value)
+  VALUES (5,'2009-02-10', 250);
+INSERT INTO commission(employee, date, value)
+  VALUES (7,'2012-08-12', 100);
+INSERT INTO commission(employee, date, value)
+  VALUES (7,'2010-08-12', 150);
+INSERT INTO history (employee, position, start_date)
+  VALUES (1,'CS1', '2015-01-10');
+INSERT INTO history (employee, position, start_date)
+  VALUES (1,'CS4', '2017-05-07');
+INSERT INTO history (employee, position, start_date)
+  VALUES (1,'CS3', '2017-03-09');
+INSERT INTO history (employee, position, start_date)
+  VALUES (1,'CS5', '2013-04-10');
+INSERT INTO history (employee, position, start_date)
+  VALUES (2,'CS1', '2013-01-10');
+INSERT INTO history (employee, position, start_date)
+  VALUES (4,'CS3', '2014-05-07');
+INSERT INTO history (employee, position, start_date)
+  VALUES (7,'CS1', '2011-05-07');
+INSERT INTO history (employee, position, start_date)
+  VALUES (7,'CS2', '2011-05-07');
+INSERT INTO history (employee, position, start_date)
+  VALUES (7,'CS3', '2011-05-07');
+INSERT INTO history (employee, position, start_date)
+  VALUES (7,'CS5', '2014-01-01');
+
+/*
+ A COMMIT means that the changes made in the current transaction are made permanent and become visible to other sessions.
+ A ROLLBACK statement, on the other hand, cancels all modifications made by the current transaction.
+ */
+COMMIT;
+SET FOREIGN_KEY_CHECKS=1;
