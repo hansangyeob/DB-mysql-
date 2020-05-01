@@ -1,128 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2020-04-30T07:52:27.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="2t67Sc4OXOZ4KQu-FU72" version="13.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-01T07:01:24.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36" etag="JqnzRo5SElIZkvOBBQia" version="13.0.3" type="github">
   <diagram id="K03sYseseirvuOLzhtns" name="Page-1">
-    <mxGraphModel dx="1303" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TGKqARG2-MbJU1Pvm6La-5" value="Sulppliers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="100" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=17;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-6" target="TGKqARG2-MbJU1Pvm6La-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="20" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-190" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-6" value="ABC Hire" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="130" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-7" value="Support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="420" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=1;fontSize=17;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-58" target="TGKqARG2-MbJU1Pvm6La-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=1;fontSize=17;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-58" target="TGKqARG2-MbJU1Pvm6La-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="340" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-8" value="Private customers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="590" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-9" value="Business customers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="620" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-10" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="670" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-10" value="&lt;span class=&quot;TextRun SCXW16376595 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; line-height: 17.2667px&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW16376595 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: inherit&quot;&gt;Miscellaneous&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW16376595 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; line-height: 17.2667px ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="510" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.692;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-11" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="610" y="-180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-11" value="&lt;span class=&quot;TextRun SCXW195696035 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; line-height: 17.2667px&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW195696035 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: inherit&quot;&gt;Power Tools&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW195696035 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; line-height: 17.2667px ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="350" y="170" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-12" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="220" y="-190" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-12" value="&#xa;&#xa;&lt;!--StartFragment--&gt;&lt;span data-contrast=&quot;auto&quot; class=&quot;TextRun SCXW90887362 BCX0&quot; xml:lang=&quot;EN-US&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; font-size: 10pt; font-family: &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Malgun Gothic_MSFontService&amp;quot;, sans-serif; font-kerning: none; line-height: 17.2667px; font-variant-ligatures: none !important;&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW90887362 BCX0&quot; style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-color: inherit;&quot;&gt;Car Maintenance&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW90887362 BCX0&quot; data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}&quot; style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; font-size: 10pt; line-height: 17.2667px; font-family: &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;Malgun Gothic_MSFontService&amp;quot;, sans-serif;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;!--EndFragment--&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="430" y="-30" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-13" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-13" value="&lt;span class=&quot;TextRun SCXW137007112 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; line-height: 17.2667px&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW137007112 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: inherit&quot;&gt;Decorating Equipment&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW137007112 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; line-height: 17.2667px ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry y="140" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=17;endArrow=none;endFill=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-14" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="480" y="-180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-14" value="&lt;span class=&quot;TextRun SCXW104033516 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; line-height: 17.2667px&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW104033516 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: inherit&quot;&gt;Access Equipment&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW104033516 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; line-height: 17.2667px ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="10" y="30" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.883;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-15" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="110" y="-190" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-15" value="&lt;span class=&quot;TextRun  BCX0 SCXW108622904&quot; lang=&quot;EN-US&quot; style=&quot;animation: 0s ease 0s 1 normal none running none ; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0 , 0 , 0 , 0) ; border: 0px none rgb(0 , 0 , 0) ; border-radius: 0px ; border-collapse: separate ; bottom: auto ; box-shadow: none ; box-sizing: content-box ; caption-side: top ; clear: none ; clip: auto ; content: normal ; cursor: text ; direction: ltr ; display: inline ; empty-cells: show ; float: none ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; font-size: 13.3333px ; height: auto ; left: auto ; line-height: 17.2667px ; list-style: outside none disc ; margin: 0px ; max-height: none ; max-width: none ; min-height: 0px ; min-width: 0px ; opacity: 1 ; outline: rgb(0 , 0 , 0) none 0px ; overflow-wrap: break-word ; overflow: visible ; padding: 0px ; position: static ; resize: none ; right: auto ; speak: normal ; table-layout: auto ; text-align: justify ; text-shadow: none ; text-overflow: clip ; top: auto ; transition: all 0s ease 0s ; unicode-bidi: normal ; vertical-align: baseline ; visibility: visible ; width: auto ; word-break: normal ; z-index: auto ; zoom: 1 ; -webkit-appearance: none ; backface-visibility: visible ; border-spacing: 0px ; perspective: none ; perspective-origin: 0px 0px ; transform: none ; transform-origin: 0px 0px ; transform-style: flat&quot;&gt;&lt;span class=&quot;NormalTextRun  BCX0 SCXW108622904&quot; style=&quot;background-color: inherit&quot;&gt;Building Equipment&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-50" width="80" height="80" as="geometry" />
+          <mxGeometry x="-110" y="-210" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-16" value="&lt;span class=&quot;TextRun SCXW136956164 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; line-height: 17.2667px&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW136956164 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: inherit&quot;&gt;Gardening Equipment&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW136956164 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; line-height: 17.2667px ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-70" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-17" target="TGKqARG2-MbJU1Pvm6La-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="340" y="-190" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-17" value="&lt;span class=&quot;TextRun SCXW54788103 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;animation: 0s ease 0s 1 normal none running none ; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0 , 0 , 0 , 0) ; border: 0px none rgb(0 , 0 , 0) ; border-radius: 0px ; border-collapse: separate ; bottom: auto ; box-shadow: none ; box-sizing: content-box ; caption-side: top ; clear: none ; clip: auto ; content: normal ; cursor: text ; direction: ltr ; display: inline ; empty-cells: show ; float: none ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; font-size: 13.3333px ; height: auto ; left: auto ; line-height: 17.2667px ; list-style: outside none disc ; margin: 0px ; max-height: none ; max-width: none ; min-height: 0px ; min-width: 0px ; opacity: 1 ; outline: rgb(0 , 0 , 0) none 0px ; overflow-wrap: break-word ; overflow: visible ; padding: 0px ; position: static ; resize: none ; right: auto ; speak: normal ; table-layout: auto ; text-align: justify ; text-shadow: none ; text-overflow: clip ; top: auto ; transition: all 0s ease 0s ; unicode-bidi: normal ; vertical-align: baseline ; visibility: visible ; width: auto ; word-break: normal ; z-index: auto ; zoom: 1 ; -webkit-appearance: none ; backface-visibility: visible ; border-spacing: 0px ; perspective: none ; perspective-origin: 0px 0px ; transform: none ; transform-origin: 0px 0px ; transform-style: flat&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW54788103 BCX0&quot; style=&quot;background-color: inherit&quot;&gt;Heating and Lighting&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="420" y="110" width="80" height="80" as="geometry" />
+          <mxGeometry x="720" y="-190" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-28" target="TGKqARG2-MbJU1Pvm6La-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-28" target="TGKqARG2-MbJU1Pvm6La-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-190" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-28" value="&lt;div&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Delivery time&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;align=center;" vertex="1" parent="1">
-          <mxGeometry y="460" width="80" height="80" as="geometry" />
+          <mxGeometry x="-290" y="220" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-29" target="TGKqARG2-MbJU1Pvm6La-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-29" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Price&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="110" y="600" width="80" height="80" as="geometry" />
+          <mxGeometry x="-170" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-30" target="TGKqARG2-MbJU1Pvm6La-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="290" y="500" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-30" target="TGKqARG2-MbJU1Pvm6La-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-30" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;u&gt;S_Name&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="250" y="470" width="80" height="80" as="geometry" />
+          <mxGeometry x="-50" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-34" target="TGKqARG2-MbJU1Pvm6La-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-34" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;membership&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="650" y="300" width="80" height="80" as="geometry" />
+          <mxGeometry x="750" y="-20" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-35" target="TGKqARG2-MbJU1Pvm6La-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-35" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;u&gt;B_Name&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="740" y="490" width="80" height="80" as="geometry" />
+          <mxGeometry x="840" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-43" target="TGKqARG2-MbJU1Pvm6La-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-43" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Address&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="740" y="620" width="80" height="80" as="geometry" />
+          <mxGeometry x="730" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.394;entryY=1.061;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-44" target="TGKqARG2-MbJU1Pvm6La-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGKqARG2-MbJU1Pvm6La-44" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;u&gt;P_Name&lt;/u&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="600" y="720" width="80" height="80" as="geometry" />
+          <mxGeometry x="570" y="560" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-49" target="TGKqARG2-MbJU1Pvm6La-6">
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-49" target="TGKqARG2-MbJU1Pvm6La-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-49" target="TGKqARG2-MbJU1Pvm6La-5">
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-49" target="TGKqARG2-MbJU1Pvm6La-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TGKqARG2-MbJU1Pvm6La-49" value="Offer" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="90" y="310" width="80" height="80" as="geometry" />
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-49" value="Obtaied" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-58" value="&lt;span&gt;B_support&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-62" target="TGKqARG2-MbJU1Pvm6La-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;fontSize=17;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-62" target="TGKqARG2-MbJU1Pvm6La-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-62" value="arrange" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="414" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=ERzeroToMany;endFill=1;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-68" target="TGKqARG2-MbJU1Pvm6La-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERzeroToMany;endFill=1;fontSize=17;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-68" target="TGKqARG2-MbJU1Pvm6La-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95" y="200" />
+              <mxPoint x="190" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-68" value="&lt;span&gt;P_support&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="95" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;fontSize=17;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-69" target="TGKqARG2-MbJU1Pvm6La-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.348;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-69" target="TGKqARG2-MbJU1Pvm6La-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-69" value="Hire" style="rhombus;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-13" value="&lt;span class=&quot;TextRun SCXW137007112 BCX0&quot; lang=&quot;EN-US&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif ; line-height: 17.2667px&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW137007112 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: inherit&quot;&gt;Decorating Equipment&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;EOP SCXW137007112 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; font-size: 10pt ; line-height: 17.2667px ; font-family: &amp;#34;malgun gothic&amp;#34; , &amp;#34;malgun gothic_msfontservice&amp;#34; , sans-serif&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.352;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="TGKqARG2-MbJU1Pvm6La-79" target="TGKqARG2-MbJU1Pvm6La-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGKqARG2-MbJU1Pvm6La-79" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font face=&quot;malgun gothic, malgun gothic_msfontservice, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13.3333px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Category&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="130" y="-50" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
