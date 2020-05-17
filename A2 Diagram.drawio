@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-15T17:09:32.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="pXPCf89sMHZuoosFwtsG" version="13.0.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-17T08:36:48.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="LdY6hOfZts4rlP87A7yg" version="13.0.9" type="github">
   <diagram id="K03sYseseirvuOLzhtns" name="Page-1">
-    <mxGraphModel dx="3598" dy="4177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="3" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3401" dy="3961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="3" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
         <mxCell id="FO-TaxdujKSURo-2o1d0-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-73" target="FO-TaxdujKSURo-2o1d0-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO-TaxdujKSURo-2o1d0-73" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;b equipment&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=4;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FO-TaxdujKSURo-2o1d0-73" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;b equipment&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-870" y="-1270" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=1;fontSize=17;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-76" target="FO-TaxdujKSURo-2o1d0-58">
@@ -206,7 +206,7 @@
         <mxCell id="FO-TaxdujKSURo-2o1d0-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=17;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-109" target="FO-TaxdujKSURo-2o1d0-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO-TaxdujKSURo-2o1d0-109" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;b brand&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=4;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FO-TaxdujKSURo-2o1d0-109" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;b brand&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-820" y="-1370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=17;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-111" target="FO-TaxdujKSURo-2o1d0-62">
@@ -309,13 +309,13 @@
         <mxCell id="FO-TaxdujKSURo-2o1d0-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-138" target="FO-TaxdujKSURo-2o1d0-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO-TaxdujKSURo-2o1d0-138" value="&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;pbrand&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=4;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FO-TaxdujKSURo-2o1d0-138" value="&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;pbrand&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=0;fontColor=#000000;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="-760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-140" target="FO-TaxdujKSURo-2o1d0-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO-TaxdujKSURo-2o1d0-140" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: consolas; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;p_equipment&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=4;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FO-TaxdujKSURo-2o1d0-140" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: consolas; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;p_equipment&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1410" y="-770" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-142" target="FO-TaxdujKSURo-2o1d0-60">
@@ -327,8 +327,8 @@
         <mxCell id="FO-TaxdujKSURo-2o1d0-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-144" target="FO-TaxdujKSURo-2o1d0-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO-TaxdujKSURo-2o1d0-144" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: consolas; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;&quot;&gt;preplace_amount&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1680" y="-860" width="80" height="80" as="geometry" />
+        <mxCell id="FO-TaxdujKSURo-2o1d0-144" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span&gt;preplace&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span&gt;amount&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1760" y="-810" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-146" target="FO-TaxdujKSURo-2o1d0-60">
           <mxGeometry relative="1" as="geometry" />
@@ -337,7 +337,7 @@
           <mxGeometry x="-1860" y="-750" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-147" value="&lt;b style=&quot;font-size: 21px&quot;&gt;&lt;br&gt;S3821004. Jaeheon Jeong&lt;br&gt;S3821179 sang yeob, Han&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="-1660" width="340" height="130" as="geometry" />
+          <mxGeometry x="-820" y="-1660" width="340" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FO-TaxdujKSURo-2o1d0-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.84;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontColor=#000000;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-154" target="FO-TaxdujKSURo-2o1d0-58">
           <mxGeometry relative="1" as="geometry">
@@ -359,8 +359,14 @@
         <mxCell id="FO-TaxdujKSURo-2o1d0-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontColor=#000000;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-163" target="FO-TaxdujKSURo-2o1d0-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FO-TaxdujKSURo-2o1d0-163" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;b ID&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FO-TaxdujKSURo-2o1d0-163" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;b ID&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="-1236" y="-1340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FO-TaxdujKSURo-2o1d0-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontColor=#000000;" edge="1" parent="1" source="FO-TaxdujKSURo-2o1d0-165" target="FO-TaxdujKSURo-2o1d0-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FO-TaxdujKSURo-2o1d0-165" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;p ID&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontStyle=5;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="-900" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
